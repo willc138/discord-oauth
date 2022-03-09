@@ -1,0 +1,8 @@
+/node_modules/
+/dist/
+/.vscode/
+/.eslintignore
+/.eslintrc.js
+/.prettierrc
+/tsconfig.eslint.json
+/tsconfig.json
