@@ -42,6 +42,10 @@ export function validateEnvironmentVariables(): void {
     if (!constants.host.domain) {
         throw new Error('Required environment variable `DOMAIN` is not set.');
     }
+
+    if (!constants.server.port) {
+        throw new Error('Required environment variable `PORT` is not set.');
+    }
 }
 
 /**

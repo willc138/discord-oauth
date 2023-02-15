@@ -18,5 +18,8 @@ export const constants = {
     },
     session: {
         secret: process.env.SECRET
+    },
+    server: {
+        port: process.env.PORT
     }
 };

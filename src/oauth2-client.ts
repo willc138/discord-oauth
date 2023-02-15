@@ -102,6 +102,6 @@ server.get('/callback', async (expressRequest, expressResponse) => {
     }
 });
 
-server.listen(443);
+server.listen(constants.server.port!);
 process.on('SIGINT', async () => mongoClient.close().finally(process.exit(0)));
 process.on('SIGTERM', async () => mongoClient.close().finally(process.exit(0)));
